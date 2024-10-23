@@ -1,0 +1,154 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  height: 100px;
+  text-align: center;
+  text-shadow: 2px 3px #000000;
+  vertical-align: center;
+  font-size: 2em;
+  color: white;
+  background-image: url("img/AI_banner_small.jpg");
+  mask-image: linear-gradient(to top, transparent 5%, black 70%); 
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+}
+
+body {
+  line-height: 150%;
+  background-color: #f2f2f2;
+  font-family: "Arial", sans-serif;
+  color: black;
+}
+
+#container {
+  display: flex;
+}
+
+nav {
+  line-height: 120%;
+  width: 25%;
+  max-width: 175px;
+  padding: 2px;
+  font-size: .8em;
+  border-top: 1px solid #153555;
+  border-right: 1px solid #153555;
+}
+
+nav a {
+  text-decoration: none;
+  font-style: italic;
+  padding: 2px;
+  color: #424242;
+  display: block;
+}
+
+nav a.current {
+  text-decoration: none;
+  font-style: italic;
+  padding: 2px;
+  color: white;
+  display: block;
+}
+
+nav a:hover {
+  font-size: 1.2em;
+  transition: .9s;
+  font-weight: bold;
+  color: white;
+}
+
+div.menu:hover {
+  transition: .9s;
+  background-color: #153555;
+}
+
+main {
+  height: 850px;
+  width: 100%;
+  overflow-y:auto
+}
+
+main img {
+  width: 100%;
+}
+
+#footer-header {
+  padding: 5px;
+  background-color: #153555;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+div.toppart {
+  text-align: center;
+  color: white;
+  font-size: 1.8em;
+  font-weight: bold;
+  background-color: #153555;
+  padding: 4px;
+  line-height: 110%;
+}
+
+div.sections {
+  text-align: justify;
+  padding: 4px;
+}
+
+div.bottompart {
+  text-align: center;
+  padding: 4px;
+}
+
+div.container--shortline {
+  display: flex;
+  align-items: center;
+  height: 4px;
+  justify-content: center;
+}
+
+div.shortline {
+  border-top: 1px solid #153555;
+  width: 60%; 
+}
+
+div.menu {
+  padding: 4px;
+  margin: 2px;
+}
+
+div.menu-current {
+  padding: 4px;
+  margin: 2px;
+  background-color: #153555;
+  color: white;
+}
+
+a {
+  color: #1166cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1166cc;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: numbered;
+}
+
+li {
+  padding: 2px;
+}
+
+.types {
+  color: #441100;
+  font-weight: bold;
+}
